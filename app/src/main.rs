@@ -20,10 +20,30 @@
 
 // lesson 4 rust
 
-fn main(){
-    //char
-    //bool
+// fn main(){
+//     //char
+//     //bool
 
-    let symbol: char = 'q';
-    println!("{}",symbol);
+//     // let symbol: char = 'q';
+//     // println!("{}",symbol);
+//     //использование чар
+
+//     // let logic: bool = true;
+//     // let logic_1: bool = false;
+
+//     // println!("{}, {}", logic, logic_1);
+// }
+
+
+//lesson 5 rust
+
+fn main(){
+    //однострочный комментарий
+
+    /*
+    многострочный
+    комментарий
+    база
+    */
+    println!("Hello rust");
 }
