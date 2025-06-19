@@ -377,5 +377,22 @@ fn main(){
 //functions
 
 fn main(){
-    
+    //info(String::from("asdas"),1231,2131.0);
+    let (sum,min,mul) = math(12,12);
+    println!("{} {} {}",sum,min,mul);
+}
+
+// fn sum(a: i32, b: i32){
+//     println!("Sum is {}", a + b);
+// }
+
+// fn info(name: String, age: i32, wallet: f64){
+//     println!("{}, {}, {}", name, age, wallet)
+// }
+
+// fn multi(a: i32, b: i32) -> i32 {
+//     return a * b;
+// }
+fn math(a: i32, b: i32) -> (i32,i64,i32) {
+    (a+b,(a-b).into(),a*b)
 }
