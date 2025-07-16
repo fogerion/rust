@@ -1,12 +1,9 @@
+use crate::lessons::lesson_21::lesson21;
 
-use crate::lessons::lesson_20::lesson20;
-
-// mod lessons{
-//     pub mod lesson_3;
-// }
 mod lessons{
-    pub mod lesson_20;
+    pub mod lesson_21;
 }
 fn main(){
-    lesson20();
+    lesson21();
 }
+
