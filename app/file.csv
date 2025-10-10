@@ -1,0 +1,5 @@
+name,age,salary,active
+"John Doe",30,50000.50,true
+"Jane Smith",25,45000.75,false
+"Bob Johnson",35,,true
+"Alice Brown",28,48000.0,true
